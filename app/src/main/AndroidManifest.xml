@@ -12,7 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TeamProject"
 
-        tools:targetApi="31">
+        tools:targetApi="34">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyC-pWOTye3oaX7Y2HvfPMABItIRz-eeM3M"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">
